@@ -1,0 +1,14 @@
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\controller\DeptController.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\controller\EmpController.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\mapper\DeptMapper.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\mapper\EmpMapper.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\pojo\Dept.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\pojo\Emp.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\pojo\EmpExpr.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\pojo\PageResult.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\pojo\Result.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\service\DeptService.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\service\EmpService.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\service\impl\DeptServiceImpl.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\service\impl\EmpServiceImpl.java
+D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\src\main\java\com\whl\tlias\TliasApplication.java

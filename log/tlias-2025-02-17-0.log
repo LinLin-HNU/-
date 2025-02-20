@@ -1,0 +1,16 @@
+2025-02-17 17:43:34.417 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.whl.tlias.config.SpringDataRedisTest]: SpringDataRedisTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 17:43:34.590 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.whl.tlias.TliasApplication for test class com.whl.tlias.config.SpringDataRedisTest
+2025-02-17 17:43:35.112 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-Starting SpringDataRedisTest using Java 17.0.12 with PID 7432 (started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例\tlias)
+2025-02-17 17:43:35.113 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-No active profile set, falling back to 1 default profile: "default"
+2025-02-17 17:43:36.093 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-17 17:43:36.098 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-17 17:43:36.151 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2025-02-17 17:43:38.760 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-Started SpringDataRedisTest in 3.988 seconds (process running for 5.681)
+2025-02-17 18:00:58.819 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.whl.tlias.config.SpringDataRedisTest]: SpringDataRedisTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 18:00:59.086 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.whl.tlias.TliasApplication for test class com.whl.tlias.config.SpringDataRedisTest
+2025-02-17 18:00:59.987 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-Starting SpringDataRedisTest using Java 17.0.12 with PID 21640 (started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例\tlias)
+2025-02-17 18:00:59.988 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-No active profile set, falling back to 1 default profile: "default"
+2025-02-17 18:01:01.905 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-17 18:01:01.911 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-17 18:01:02.006 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+2025-02-17 18:01:07.215 [main] INFO  com.whl.tlias.config.SpringDataRedisTest-Started SpringDataRedisTest in 7.791 seconds (process running for 10.868)

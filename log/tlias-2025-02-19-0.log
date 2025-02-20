@@ -1,0 +1,523 @@
+2025-02-19 09:54:38.983 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 25960 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 09:54:38.986 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 09:54:39.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 09:54:39.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 09:54:39.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-02-19 09:54:40.426 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 09:54:40.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 09:54:40.440 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 09:54:40.440 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 09:54:40.511 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 09:54:40.511 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1480 ms
+2025-02-19 09:54:41.845 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 09:54:41.858 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-19 09:54:41.894 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-19 09:54:41.909 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-19 09:55:37.274 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 6380 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 09:55:37.275 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 09:55:37.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 09:55:37.779 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 09:55:37.804 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-02-19 09:55:38.285 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 09:55:38.299 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 09:55:38.300 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 09:55:38.301 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 09:55:38.348 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 09:55:38.348 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1044 ms
+2025-02-19 09:55:39.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 09:55:39.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 09:55:39.199 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.168 seconds (process running for 2.971)
+2025-02-19 09:56:08.237 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 09:56:08.238 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 09:56:08.238 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-02-19 09:56:08.610 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 09:56:08.911 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93e378c
+2025-02-19 09:56:08.912 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 09:56:43.002 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.delete]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-02-19 09:56:43.003 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2042709456 wrapping com.mysql.cj.jdbc.ConnectionImpl@93e378c] for JDBC transaction
+2025-02-19 09:56:43.004 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2042709456 wrapping com.mysql.cj.jdbc.ConnectionImpl@93e378c] to manual commit
+2025-02-19 09:56:43.025 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 09:56:43.025 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2042709456 wrapping com.mysql.cj.jdbc.ConnectionImpl@93e378c]
+2025-02-19 09:56:43.036 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2042709456 wrapping com.mysql.cj.jdbc.ConnectionImpl@93e378c] after transaction
+2025-02-19 09:57:07.183 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 09:57:07.549 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 09:57:07.563 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 09:57:07.570 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:40:15.375 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 22772 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:40:15.377 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:40:15.937 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:40:15.940 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:40:15.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:40:16.461 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:40:16.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:40:16.473 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:40:16.473 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:40:16.524 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:40:16.524 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1111 ms
+2025-02-19 10:40:17.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:40:17.444 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:40:17.451 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.372 seconds (process running for 3.172)
+2025-02-19 10:41:24.471 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:41:24.472 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:41:24.472 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-02-19 10:41:24.510 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:41:24.807 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58420788
+2025-02-19 10:41:24.808 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:43:44.457 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:43:44.458 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@414542072 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] for JDBC transaction
+2025-02-19 10:43:44.460 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@414542072 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] to manual commit
+2025-02-19 10:43:53.002 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-02-19 10:43:53.003 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@414542072 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788]
+2025-02-19 10:43:53.008 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@414542072 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] after transaction
+2025-02-19 10:44:01.697 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:44:01.698 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1316321979 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] for JDBC transaction
+2025-02-19 10:44:01.698 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1316321979 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] to manual commit
+2025-02-19 10:44:20.490 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-02-19 10:44:20.490 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@1316321979 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788]
+2025-02-19 10:44:20.494 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1316321979 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] after transaction
+2025-02-19 10:44:27.357 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:44:27.357 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2105782898 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] for JDBC transaction
+2025-02-19 10:44:27.358 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2105782898 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] to manual commit
+2025-02-19 10:45:38.017 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s35ms664µs100ns).
+2025-02-19 10:45:38.023 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-02-19 10:45:38.023 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@2105782898 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788]
+2025-02-19 10:45:38.028 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2105782898 wrapping com.mysql.cj.jdbc.ConnectionImpl@58420788] after transaction
+2025-02-19 10:45:38.054 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 10:45:38.477 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 10:45:38.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 10:45:38.498 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:45:40.851 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 27228 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:45:40.852 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:45:41.269 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:45:41.270 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:45:41.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:45:41.686 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:45:41.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:45:41.696 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:45:41.697 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:45:41.740 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:45:41.741 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 863 ms
+2025-02-19 10:45:42.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:45:42.450 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:45:42.457 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.823 seconds (process running for 2.597)
+2025-02-19 10:46:09.977 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:46:09.977 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:46:09.978 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 10:46:10.085 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:46:10.086 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:46:10.342 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47241161
+2025-02-19 10:46:10.343 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:46:10.345 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 10:46:10.347 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 10:46:10.384 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:46:10.385 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 10:46:10.393 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 10:47:56.463 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 10:47:57.012 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 10:47:57.035 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 10:47:57.041 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:47:59.377 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 21228 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:47:59.379 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:47:59.835 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:47:59.837 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:47:59.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:48:00.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:48:00.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:48:00.299 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:48:00.299 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:48:00.345 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:48:00.346 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 939 ms
+2025-02-19 10:48:01.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:48:01.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:48:01.073 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.929 seconds (process running for 2.532)
+2025-02-19 10:48:34.931 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:48:34.931 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:48:34.932 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 10:48:37.077 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:48:37.078 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:48:37.226 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@735988c4
+2025-02-19 10:48:37.227 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:48:37.237 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1178176708 wrapping com.mysql.cj.jdbc.ConnectionImpl@735988c4] for JDBC transaction
+2025-02-19 10:48:37.240 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1178176708 wrapping com.mysql.cj.jdbc.ConnectionImpl@735988c4] to manual commit
+2025-02-19 10:48:37.315 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:48:37.316 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1178176708 wrapping com.mysql.cj.jdbc.ConnectionImpl@735988c4]
+2025-02-19 10:48:37.324 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1178176708 wrapping com.mysql.cj.jdbc.ConnectionImpl@735988c4] after transaction
+2025-02-19 10:49:29.071 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 10:49:29.433 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 10:49:29.444 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 10:49:29.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:49:31.583 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 27008 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:49:31.586 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:49:32.050 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:49:32.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:49:32.073 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:49:32.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:49:32.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:49:32.516 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:49:32.516 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:49:32.561 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:49:32.561 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 946 ms
+2025-02-19 10:49:33.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:49:33.329 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:49:33.337 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.991 seconds (process running for 2.666)
+2025-02-19 10:49:56.326 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:49:56.327 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:49:56.329 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 10:49:56.462 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:49:56.465 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:49:56.825 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6decf09f
+2025-02-19 10:49:56.826 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:49:56.828 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@265970960 wrapping com.mysql.cj.jdbc.ConnectionImpl@6decf09f] for JDBC transaction
+2025-02-19 10:49:56.830 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@265970960 wrapping com.mysql.cj.jdbc.ConnectionImpl@6decf09f] to manual commit
+2025-02-19 10:50:24.602 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s775ms930µs).
+2025-02-19 10:50:49.905 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:50:49.906 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@265970960 wrapping com.mysql.cj.jdbc.ConnectionImpl@6decf09f]
+2025-02-19 10:50:49.915 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@265970960 wrapping com.mysql.cj.jdbc.ConnectionImpl@6decf09f] after transaction
+2025-02-19 10:51:50.544 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s992ms255µs100ns).
+2025-02-19 10:53:00.607 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 10:53:01.033 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 10:53:01.045 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 10:53:01.051 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:53:06.865 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 16680 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:53:06.866 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:53:07.280 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:53:07.282 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:53:07.302 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:53:07.692 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:53:07.701 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:53:07.702 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:53:07.702 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:53:07.747 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:53:07.747 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 856 ms
+2025-02-19 10:53:08.487 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:53:08.501 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:53:08.507 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.864 seconds (process running for 2.543)
+2025-02-19 10:53:25.197 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:53:25.197 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:53:25.198 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 10:53:25.320 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:53:25.321 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:53:25.705 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47241161
+2025-02-19 10:53:25.706 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:53:25.710 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 10:53:25.713 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 10:53:25.783 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:53:25.784 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 10:53:25.792 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 10:54:27.083 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 10:54:27.458 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 10:54:27.469 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 10:54:27.474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 10:54:33.116 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 25088 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 10:54:33.118 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 10:54:33.533 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 10:54:33.535 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 10:54:33.553 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 10:54:33.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 10:54:33.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:54:33.957 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 10:54:33.957 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 10:54:34.004 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 10:54:34.004 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 860 ms
+2025-02-19 10:54:34.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 10:54:34.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 10:54:34.727 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.833 seconds (process running for 2.417)
+2025-02-19 10:54:54.836 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 10:54:54.836 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 10:54:54.837 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 10:54:54.957 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:54:54.958 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 10:54:55.218 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47241161
+2025-02-19 10:54:55.219 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 10:54:55.221 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 10:54:55.222 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 10:54:55.274 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:54:55.275 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 10:54:55.283 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 10:58:27.134 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:58:27.135 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2069510795 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 10:58:27.135 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2069510795 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 10:58:27.138 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 10:58:27.139 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2069510795 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 10:58:27.145 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2069510795 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 10:59:29.432 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 10:59:29.433 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1116605872 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 10:59:29.433 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1116605872 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 10:59:29.539 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-02-19 10:59:29.539 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@1116605872 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 10:59:29.544 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1116605872 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 11:00:58.214 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 11:00:58.215 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1044053140 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 11:00:58.215 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1044053140 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 11:00:58.219 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-02-19 11:00:58.219 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@1044053140 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 11:00:58.224 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1044053140 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 11:02:13.868 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 11:02:14.257 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 11:02:14.270 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 11:02:14.276 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 11:02:20.167 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 14752 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 11:02:20.169 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 11:02:20.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 11:02:20.650 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 11:02:20.670 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 11:02:21.102 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 11:02:21.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:02:21.112 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 11:02:21.113 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 11:02:21.162 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 11:02:21.162 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 965 ms
+2025-02-19 11:02:21.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:02:21.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 11:02:21.935 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.013 seconds (process running for 2.689)
+2025-02-19 11:02:36.722 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 11:02:36.722 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 11:02:36.723 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 11:02:36.854 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 11:02:36.855 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 11:02:37.159 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c1273e8
+2025-02-19 11:02:37.160 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 11:02:37.164 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] for JDBC transaction
+2025-02-19 11:02:37.167 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] to manual commit
+2025-02-19 11:02:56.672 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 11:02:56.672 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8]
+2025-02-19 11:02:56.681 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] after transaction
+2025-02-19 11:05:03.452 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 11:05:03.903 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 11:05:03.915 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 11:05:03.922 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 11:05:09.861 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 8716 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 11:05:09.863 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 11:05:10.330 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 11:05:10.332 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 11:05:10.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 11:05:10.791 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 11:05:10.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:05:10.802 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 11:05:10.802 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 11:05:10.851 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 11:05:10.852 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 958 ms
+2025-02-19 11:05:11.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:05:11.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 11:05:11.752 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.148 seconds (process running for 2.937)
+2025-02-19 11:05:13.115 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 11:05:13.499 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 11:05:19.298 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 27532 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 11:05:19.300 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 11:05:19.768 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 11:05:19.769 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 11:05:19.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 11:05:20.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 11:05:20.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:05:20.238 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 11:05:20.238 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 11:05:20.282 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 11:05:20.283 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 954 ms
+2025-02-19 11:05:21.045 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 11:05:21.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 11:05:21.066 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.022 seconds (process running for 2.678)
+2025-02-19 11:05:33.887 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 11:05:33.888 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 11:05:33.891 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-02-19 11:05:34.011 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 11:05:34.013 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 11:05:34.402 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c1273e8
+2025-02-19 11:05:34.404 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 11:05:34.409 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] for JDBC transaction
+2025-02-19 11:05:34.412 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] to manual commit
+2025-02-19 11:05:39.253 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 11:05:39.253 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8]
+2025-02-19 11:05:39.260 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1163259068 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c1273e8] after transaction
+2025-02-19 11:05:54.240 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 11:05:54.653 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 11:05:54.663 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 11:05:54.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 16:20:56.324 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 10436 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 16:20:56.325 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 16:20:56.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 16:20:56.860 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 16:20:56.883 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 16:20:57.372 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 16:20:57.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:20:57.385 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 16:20:57.385 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 16:20:57.432 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 16:20:57.432 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1076 ms
+2025-02-19 16:20:58.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:20:58.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 16:20:58.296 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.245 seconds (process running for 3.042)
+2025-02-19 16:21:19.319 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 16:21:19.321 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 16:21:19.321 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-02-19 16:21:19.398 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 16:21:19.398 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 16:21:19.651 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67e8fcf6
+2025-02-19 16:21:19.652 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 16:21:19.655 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@776063598 wrapping com.mysql.cj.jdbc.ConnectionImpl@67e8fcf6] for JDBC transaction
+2025-02-19 16:21:19.657 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@776063598 wrapping com.mysql.cj.jdbc.ConnectionImpl@67e8fcf6] to manual commit
+2025-02-19 16:21:19.700 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 16:21:19.700 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@776063598 wrapping com.mysql.cj.jdbc.ConnectionImpl@67e8fcf6]
+2025-02-19 16:21:19.712 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@776063598 wrapping com.mysql.cj.jdbc.ConnectionImpl@67e8fcf6] after transaction
+2025-02-19 16:25:21.530 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 16:25:21.998 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 16:25:22.010 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 16:25:22.015 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 16:25:27.674 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 27136 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 16:25:27.675 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 16:25:28.115 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 16:25:28.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 16:25:28.135 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 16:25:28.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 16:25:28.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:25:28.533 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 16:25:28.533 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 16:25:28.577 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 16:25:28.577 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 876 ms
+2025-02-19 16:25:29.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:25:29.300 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 16:25:29.306 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.854 seconds (process running for 2.408)
+2025-02-19 16:25:42.974 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 16:25:42.975 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 16:25:42.975 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-02-19 16:25:43.063 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 16:25:43.253 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f2882ac
+2025-02-19 16:25:43.254 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 16:26:32.229 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-02-19 16:26:32.230 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1545710287 wrapping com.mysql.cj.jdbc.ConnectionImpl@2f2882ac] for JDBC transaction
+2025-02-19 16:26:32.232 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1545710287 wrapping com.mysql.cj.jdbc.ConnectionImpl@2f2882ac] to manual commit
+2025-02-19 16:26:32.248 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 16:26:32.248 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1545710287 wrapping com.mysql.cj.jdbc.ConnectionImpl@2f2882ac]
+2025-02-19 16:26:32.255 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1545710287 wrapping com.mysql.cj.jdbc.ConnectionImpl@2f2882ac] after transaction
+2025-02-19 16:27:01.317 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 16:27:01.705 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 16:27:01.718 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 16:27:01.721 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 16:27:07.372 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 24952 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 16:27:07.374 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 16:27:07.789 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 16:27:07.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 16:27:07.810 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 16:27:08.231 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 16:27:08.240 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:27:08.241 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 16:27:08.241 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 16:27:08.287 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 16:27:08.287 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 886 ms
+2025-02-19 16:27:08.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:27:08.997 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 16:27:09.003 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.858 seconds (process running for 2.419)
+2025-02-19 16:27:09.246 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 16:27:09.247 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 16:27:09.248 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 16:27:09.328 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 16:27:09.529 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ae355d3
+2025-02-19 16:27:09.531 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 16:27:20.662 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-02-19 16:27:20.663 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@593529028 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ae355d3] for JDBC transaction
+2025-02-19 16:27:20.664 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@593529028 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ae355d3] to manual commit
+2025-02-19 16:27:20.682 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 16:27:20.683 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@593529028 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ae355d3]
+2025-02-19 16:27:20.693 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@593529028 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ae355d3] after transaction
+2025-02-19 16:42:32.681 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 16:42:33.083 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 16:42:33.094 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 16:42:33.099 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 16:42:38.784 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 22428 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 16:42:38.785 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 16:42:39.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 16:42:39.208 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 16:42:39.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 16:42:39.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 16:42:39.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:42:39.620 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 16:42:39.620 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 16:42:39.663 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 16:42:39.663 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 853 ms
+2025-02-19 16:42:40.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:42:40.354 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 16:42:40.360 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.792 seconds (process running for 2.322)
+2025-02-19 16:43:06.623 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 16:43:06.624 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 16:43:06.626 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-02-19 16:43:06.759 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 16:43:06.761 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 16:43:07.018 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47241161
+2025-02-19 16:43:07.019 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 16:43:07.023 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] for JDBC transaction
+2025-02-19 16:43:07.025 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] to manual commit
+2025-02-19 16:43:07.088 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 16:43:07.088 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161]
+2025-02-19 16:43:07.106 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2102327953 wrapping com.mysql.cj.jdbc.ConnectionImpl@47241161] after transaction
+2025-02-19 16:46:02.107 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 16:46:02.496 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 16:46:02.505 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 16:46:02.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 16:46:08.335 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 28996 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 16:46:08.336 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 16:46:08.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 16:46:08.803 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 16:46:08.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 16:46:09.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 16:46:09.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:46:09.244 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 16:46:09.244 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 16:46:09.289 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 16:46:09.290 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 926 ms
+2025-02-19 16:46:10.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 16:46:10.019 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 16:46:10.025 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 1.924 seconds (process running for 2.646)
+2025-02-19 16:46:23.095 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 16:46:23.097 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 16:46:23.098 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-02-19 16:46:23.216 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.whl.tlias.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-02-19 16:46:23.217 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 16:46:23.495 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e45b90a
+2025-02-19 16:46:23.496 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 16:46:23.500 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1702828636 wrapping com.mysql.cj.jdbc.ConnectionImpl@6e45b90a] for JDBC transaction
+2025-02-19 16:46:23.503 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1702828636 wrapping com.mysql.cj.jdbc.ConnectionImpl@6e45b90a] to manual commit
+2025-02-19 16:46:23.578 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-02-19 16:46:23.579 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1702828636 wrapping com.mysql.cj.jdbc.ConnectionImpl@6e45b90a]
+2025-02-19 16:46:23.589 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1702828636 wrapping com.mysql.cj.jdbc.ConnectionImpl@6e45b90a] after transaction
+2025-02-19 16:52:39.493 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 16:52:39.748 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 16:52:39.769 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 16:52:39.783 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-02-19 17:29:25.809 [main] INFO  com.whl.tlias.TliasApplication-Starting TliasApplication using Java 17.0.12 with PID 28528 (D:\JAVA学习项目\后端\SpringBootWeb案例\tlias\target\classes started by 86195 in D:\JAVA学习项目\后端\SpringBootWeb案例)
+2025-02-19 17:29:25.810 [main] INFO  com.whl.tlias.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-02-19 17:29:26.296 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-19 17:29:26.298 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-19 17:29:26.320 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-02-19 17:29:26.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-02-19 17:29:26.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-19 17:29:26.904 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-02-19 17:29:26.905 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-19 17:29:26.952 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-02-19 17:29:26.953 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1112 ms
+2025-02-19 17:29:27.806 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-02-19 17:29:27.819 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-02-19 17:29:27.825 [main] INFO  com.whl.tlias.TliasApplication-Started TliasApplication in 2.269 seconds (process running for 2.893)
+2025-02-19 17:29:37.363 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 17:29:37.364 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-02-19 17:29:37.364 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-02-19 17:29:37.397 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-02-19 17:29:37.636 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76819d82
+2025-02-19 17:29:37.637 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-02-19 17:30:04.763 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-19 17:30:05.143 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-02-19 17:30:05.153 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-02-19 17:30:05.158 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

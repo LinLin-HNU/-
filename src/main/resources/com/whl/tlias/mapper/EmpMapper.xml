@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whl.tlias.mapper.EmpMapper">
+    <update id="update">
+        update emp
+        <set>
+            <if test="username!= null and username!= ''">
+                username=#{username},
+            </if>
+            <if test="password!= null and password!= ''">
+                password=#{password},
+            </if>
+            <if test="name!= null and name!= ''">
+                name=#{name},
+            </if>
+            <if test="gender!=null">
+                gender=#{gender},
+            </if>
+            <if test="image!=null and image!= ''">
+                image=#{image},
+            </if>
+            <if test="salary!=null">
+                salary=#{salary},
+            </if>
+            <if test="phone!=null and phone!= ''" >
+                phone=#{phone},
+            </if>
+            <if test="job!=null">
+                job=#{job},
+            </if>
+            <if test="entryDate!=null">
+                entry_date=#{entryDate},
+            </if>
+            <if test="deptId!=null">
+                dept_id=#{deptId},
+            </if>
+            <if test="createTime!=null">
+                create_time=#{createTime},
+            </if>
+            <if test="updateTime!=null">
+                update_time=#{updateTime},
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <delete id="deleteBatch" >
+        delete from emp where id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    <select id="selectAll" resultType="com.whl.tlias.pojo.Emp">
+        select emp.*,dept.name deptName from emp left join dept on emp.dept_id = dept.id
+        <where>
+            <if test="name!= null and name!= ''">
+                emp.name like concat('%',#{name},'%')
+            </if>
+            <if test="gender!=null">
+                and emp.gender=#{gender}
+            </if>
+            <if test="begin!=null and end!=null">
+                and emp.entry_date between #{begin} and #{end}
+            </if>
+        </where>
+        order by emp.update_time desc
+    </select>
+    
+<!--    自定义结果集-->
+    <resultMap id="empResultMap" type="com.whl.tlias.pojo.Emp">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="gender" property="gender"/>
+        <result column="image" property="image"/>
+        <result column="salary" property="salary"/>
+        <result column="phone" property="phone"/>
+        <result column="job" property="job"/>
+        <result column="entry_date" property="entryDate"/>
+        <result column="dept_id" property="deptId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+<!--        封装ExprList-->
+        <collection property="exprList" ofType="com.whl.tlias.pojo.EmpExpr">
+            <id column="ee_id" property="id"/>
+            <result column="ee_company" property="company"/>
+            <result column="ee_job" property="job"/>
+            <result column="ee_begin" property="begin"/>
+            <result column="ee_end" property="end"/>
+            <result column="ee_empid" property="empId"/>
+        </collection>
+    </resultMap>
+    <select id="selectById" resultMap="empResultMap">
+        select
+            e.*,
+            ee.id ee_id,
+            ee.company ee_company,
+            ee.job ee_job,
+            ee.begin ee_begin,
+            ee.end ee_end,
+            ee.emp_id ee_empid
+            from emp e left join emp_expr ee on e.id = ee.emp_id
+        where e.id=#{id}
+    </select>
+    <select id="countByJob" resultType="java.util.Map">
+        select case job
+                   when 1 then '班主任'
+                   when 2 then '讲师'
+                   when 3 then '学工主管'
+                   when 4 then '教研主管'
+                   when 5 then '咨询师'
+                   else '其他' end pos
+             ,count(*) data from emp group by job order by data;
+    </select>
+    <select id="countByGender" resultType="com.whl.tlias.pojo.EmpGenderData">
+        select case gender
+                   when 1 then '男性员工'
+                   when 2 then '女性员工'
+            end name
+             ,count(*) value from emp group by gender;
+    </select>
+</mapper>

@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/tlias
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      # Druid连接池配置
+      initial-size: 5  # 初始化连接数
+      min-idle: 5      # 最小空闲连接数
+      max-active: 20   # 最大活跃连接数
+      max-wait: 60000  # 获取连接时最大等待时间，单位毫秒
+      # 配置监控统计拦截的filters，stat:监控统计、log4j：日志记录、wall：防御sql注入
+      filters: stat,wall,log4j
+      # 配置StatViewServlet，用于展示Druid的统计监控页面
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: admin
+        reset-enable: false  # 是否允许清空统计数据
+      # 配置WebStatFilter，用于采集web-jdbc关联监控的数据
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"  # 排除一些不需要统计的URL
+      # 慢SQL记录
+      slow-sql-millis: 500  # 慢SQL时间阈值，单位毫秒
+      # 合并多条慢SQL记录
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      # 配置连接池监控
+      use-global-data-source-stat: true
+      # 通过connectProperties属性来打开mergeSql功能；慢SQL记录是否合并显示
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+# 其他配置保持不变
+#mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+
+# 配置事务管理日志级别
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug

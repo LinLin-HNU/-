@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whl.tlias.mapper.EmpExprMapper">
+
+    <!--批量保存员工工作经历信息
+     foreach标签：
+     collection：要遍历的集合
+     item：集合中的元素的别名
+     separator：分隔符，默认是逗号
+     -->
+    <insert id="insertBatch">
+        insert into emp_expr(emp_id, begin,end,company,job) values
+        <foreach collection="exprList" item="item" separator=",">
+            (#{item.empId},#{item.begin},#{item.end},#{item.company},#{item.job})
+        </foreach>
+    </insert>
+    <delete id="deleteByEmpIds">
+        delete from emp_expr where emp_id in
+        <foreach collection="ids" item="item" separator="," open="(" close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+</mapper>
